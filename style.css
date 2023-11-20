@@ -1,0 +1,170 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navBarSection{
+    
+    background-color: #328873;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navBarTextDiv>p{
+    margin-left: 40px;
+    color: #00D916;
+    font-size: 24px;
+    
+}
+#navBarTextDiv span{
+    color: white;
+}
+#navBarBtnDiv{
+    display: flex;
+    gap: 10px;
+    margin-right: 40px;
+}
+#navBarBtnDiv button{
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: #328873;
+}
+#bannerSection{
+    background-image: url(./business-people-holding-word-careers\ 1.png);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#aboutSection {background-color:#E9E9E9 ;
+ height: 100vh;
+display: flex;justify-content:space-evenly ;
+align-items: center;
+}
+#aboutSectionTextDiv{
+    padding: 30vh 7vw 7vh 10vw;
+    height: 80vh;
+    line-height: 27px;
+    font-size: 18px;
+}
+#aboutSectionTextDiv h1{
+    font-size: 33px;
+}
+#aboutSectionTextDiv span{
+    color: #00D916;
+}
+#aboutSectionTextDiv>p{
+    text-align: justify;
+}
+#aboutSectionImgDiv>img{
+    height: 80vh;
+    padding: 60px;
+}
+#aboutSectionTextDiv>button{
+    background-color: #00D916;
+    color: white;
+    border: none;
+    border-radius: 13px;
+    padding: 10px 30px;
+font-size: 20px;
+box-shadow: 0 5px 8px 3px rgb(197, 193, 193);
+}
+/* about section end  */
+#cardSection{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#cardMajorDiv{
+    padding: 25px;
+    display: flex;
+    gap: 45px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+}
+.cardDiv{
+    box-shadow: 2PX 2px 10px 3px rgb(190, 188, 188);
+    background-color: #00D916;
+    display: flex;
+    flex-direction: column;
+}
+.imgDiv img{
+    height: 250px;
+}
+.textDiv {
+    padding: 0 20px 20px 20px;
+
+} 
+.textDiv h1{
+font-weight: 700;
+}
+.textDiv h4{
+    font-weight: 600;
+}
+.price{
+    font-weight: 540;
+}
+.textDiv button{
+    padding: 8px 25px;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    border: none;
+}
+#cardSectionEndingBtn{
+    font-size: 20px;
+    background-color: #00D916;
+    color: white;
+    border-radius: 14px;
+    border: none;
+    padding: 10px 20px;
+    box-shadow: 0 5px 8px 3px rgb(197, 193, 193);
+margin-bottom: 30px;
+}
+/* contact section start  */
+#ContactSection{
+    display: flex;
+    flex-direction: column;
+    
+    height: 100vh;
+    background-color: #D9D9D9;
+}
+#contactMajorDiv{
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#contactTextDiv>form>input{
+display: block;
+padding: 15px 100px 15px 50px;
+font-size: 18px;
+margin-bottom: 20px;
+border: none;
+border-radius: 10px;
+}
+#contactImgDiv>img{
+    height: 350px;
+}
+#submitBtn{
+    background-color: #00D916;
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    box-shadow: 0 5px 8px 3px rgb(179, 176, 176);
+}
+#footerDiv{
+  
+    background-color: #000000;
+    color: white;
+    padding: 17px 0;
+    font-size: 21px;
+    text-align: center;
+}
